@@ -8,23 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		943877F128F4E3F50060A69F /* offersCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943877F028F4E3F50060A69F /* offersCard.swift */; };
+		943877F328F4EB760060A69F /* carOfferCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943877F228F4EB750060A69F /* carOfferCard.swift */; };
 		94B4FBBF28F20172000C1B2C /* MinicooperAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B4FBBE28F20172000C1B2C /* MinicooperAppApp.swift */; };
 		94B4FBC128F20172000C1B2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B4FBC028F20172000C1B2C /* ContentView.swift */; };
 		94B4FBC328F20174000C1B2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B4FBC228F20174000C1B2C /* Assets.xcassets */; };
 		94B4FBC628F20174000C1B2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B4FBC528F20174000C1B2C /* Preview Assets.xcassets */; };
-		94B4FBCD28F2023C000C1B2C /* kisspng-mini-cooper-mini-clubman-bmw-car-mini-5abc34b5efc4c5.7686655215222837019821.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4FBCC28F2023C000C1B2C /* kisspng-mini-cooper-mini-clubman-bmw-car-mini-5abc34b5efc4c5.7686655215222837019821.png */; };
 		94B4FBD028F20516000C1B2C /* cardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B4FBCF28F20516000C1B2C /* cardImage.swift */; };
 		94B4FBD228F20E41000C1B2C /* searchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B4FBD128F20E41000C1B2C /* searchButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		943877F028F4E3F50060A69F /* offersCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = offersCard.swift; sourceTree = "<group>"; };
+		943877F228F4EB750060A69F /* carOfferCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carOfferCard.swift; sourceTree = "<group>"; };
 		94B4FBBB28F20172000C1B2C /* MinicooperApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinicooperApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B4FBBE28F20172000C1B2C /* MinicooperAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinicooperAppApp.swift; sourceTree = "<group>"; };
 		94B4FBC028F20172000C1B2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		94B4FBC228F20174000C1B2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94B4FBC528F20174000C1B2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		94B4FBCC28F2023C000C1B2C /* kisspng-mini-cooper-mini-clubman-bmw-car-mini-5abc34b5efc4c5.7686655215222837019821.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kisspng-mini-cooper-mini-clubman-bmw-car-mini-5abc34b5efc4c5.7686655215222837019821.png"; sourceTree = "<group>"; };
 		94B4FBCF28F20516000C1B2C /* cardImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardImage.swift; sourceTree = "<group>"; };
 		94B4FBD128F20E41000C1B2C /* searchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,7 +63,6 @@
 				94B4FBBE28F20172000C1B2C /* MinicooperAppApp.swift */,
 				94B4FBC028F20172000C1B2C /* ContentView.swift */,
 				94B4FBC228F20174000C1B2C /* Assets.xcassets */,
-				94B4FBCC28F2023C000C1B2C /* kisspng-mini-cooper-mini-clubman-bmw-car-mini-5abc34b5efc4c5.7686655215222837019821.png */,
 				94B4FBC428F20174000C1B2C /* Preview Content */,
 			);
 			path = MinicooperApp;
@@ -83,6 +82,7 @@
 				94B4FBCF28F20516000C1B2C /* cardImage.swift */,
 				94B4FBD128F20E41000C1B2C /* searchButton.swift */,
 				943877F028F4E3F50060A69F /* offersCard.swift */,
+				943877F228F4EB750060A69F /* carOfferCard.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -147,7 +147,6 @@
 			files = (
 				94B4FBC628F20174000C1B2C /* Preview Assets.xcassets in Resources */,
 				94B4FBC328F20174000C1B2C /* Assets.xcassets in Resources */,
-				94B4FBCD28F2023C000C1B2C /* kisspng-mini-cooper-mini-clubman-bmw-car-mini-5abc34b5efc4c5.7686655215222837019821.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +160,7 @@
 				94B4FBD028F20516000C1B2C /* cardImage.swift in Sources */,
 				94B4FBC128F20172000C1B2C /* ContentView.swift in Sources */,
 				943877F128F4E3F50060A69F /* offersCard.swift in Sources */,
+				943877F328F4EB760060A69F /* carOfferCard.swift in Sources */,
 				94B4FBBF28F20172000C1B2C /* MinicooperAppApp.swift in Sources */,
 				94B4FBD228F20E41000C1B2C /* searchButton.swift in Sources */,
 			);

@@ -38,7 +38,7 @@ struct offersCard: View {
 
                 Spacer()
             }
-            .frame(width: 270, height: 300)
+            .frame(width: 270, height: 280)
             .background(.white)
             .cornerRadius(15)
         }

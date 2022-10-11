@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    var url1: String = "https:google.com"
     var body: some View {
         
         ScrollView(.vertical, showsIndicators: false) {
+            
+           
             VStack {
                 //MARK: Header
                 HStack(spacing: 10) {
@@ -52,10 +55,11 @@ struct ContentView: View {
         
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: 25) {
-                            cardImage(imageName: "miniCooperSE", carName: "MINI COOPER SE")
-                            cardImage(imageName: "mini3Portas", carName: "MINI 3 PORTAS")
-                            cardImage(imageName: "mini5Portas", carName: "MINI 5 PORTAS")
-                            cardImage()
+                                cardImage(imageName: "miniCooperSE", carName: "MINI COOPER SE", url: "https://www.mini.com.br/pt_BR/home/range/electric.html")
+                            
+                            cardImage(imageName: "mini3Portas", carName: "MINI 3 PORTAS", url: "https://www.mini.com.br/pt_BR/home/range/mini-3-door-hatch.html")
+                            cardImage(imageName: "mini5Portas", carName: "MINI 5 PORTAS", url: "https://www.mini.com.br/pt_BR/home/range/mini-5-door-hatch.html")
+                            cardImage(url: "https://www.mini.com.br/pt_BR/home/range/john-cooper-works.html")
                             
                             
                         }
@@ -82,6 +86,7 @@ struct ContentView: View {
                 .padding()
             }
             
+            Divider()
             VStack {
                 HStack {
                     Text("Ofertas")
@@ -91,6 +96,15 @@ struct ContentView: View {
                 }
                 .padding(.horizontal)
                 .padding(.vertical, 15)
+                
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack {
+                        carOfferCard()
+                        carOfferCard(imageName: "miniJCW", carName: "MINI JCW",carDescription: "ESPORTIVIDADE E EMOÇÃO",optionalText: "AO EXTREMO.",carPrice: "298.390", carColor: Color.red)
+                    }
+                    .shadow(color: .black.opacity(0.2), radius: 5, x: 5, y: 5)
+                    .padding()
+                }
             }
         }
         .background(Color.gray.opacity(0.2))
