@@ -78,6 +78,7 @@ struct carOfferCard: View {
             .foregroundColor(.black)
             .frame(width: 325, height: 360)
             .cornerRadius(20)
+            .shadow(radius: 5.0)
         }
         
 
